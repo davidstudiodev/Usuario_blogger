@@ -1,0 +1,48 @@
+@media only screen and (max-width : 900px) {
+    #principal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #entradas {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 400px;
+    }
+
+    #personal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #texto {
+        padding: 20px;
+        text-align: justify;
+    }
+
+    #bio {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    #bio p {
+        text-align: center;
+    }
+
+    #form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #buton3 {
+        margin: 0;
+    }
+
+
+}
